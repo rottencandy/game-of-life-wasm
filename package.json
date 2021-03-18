@@ -1,7 +1,7 @@
 {
   "name": "life",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "A game of life simulation in WebAssembly",
   "main": "index.js",
   "scripts": {
     "test": "node tests",
@@ -9,8 +9,8 @@
     "asbuild:optimized": "asc assembly/index.ts --target release",
     "asbuild": "npm run asbuild:untouched && npm run asbuild:optimized"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "saud",
+  "license": "MIT",
   "devDependencies": {
     "assemblyscript": "^0.18.15"
   },
